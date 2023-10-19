@@ -21,7 +21,7 @@
 
 
 ### SQL DDL Schema 
-
+```
 CREATE TABLE Bank
 (
   Name INT NOT NULL,
@@ -64,6 +64,7 @@ CREATE TABLE Customer
   Address INT NOT NULL,
   PRIMARY KEY (Customer_id)
 );
+```
 
 ## RESULT 
 <div align="justify">
