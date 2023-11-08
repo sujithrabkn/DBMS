@@ -1,5 +1,5 @@
-# EX.NO.6 SubQueries, Views and Joins 
-### DATE
+# EX.NO.5 SubQueries, Views and Joins 
+### DATE : 14-09-2023
 ## AIM
 ### To use SubQueries, Views and Joins in SQL 
 ## Create employee Table
@@ -71,44 +71,57 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 ### QUERY:
 
+![270762717-1848b392-372d-4111-af2d-25daf5458864](https://github.com/sujithrabkn/DBMS/assets/119477857/93df808c-59fc-4cb0-92c4-6da3e91d14ef)
 
 ### OUTPUT:
+![270762784-ee7dd795-bf87-4dff-aca9-b80307477ddd](https://github.com/sujithrabkn/DBMS/assets/119477857/16318d43-f965-49b2-b509-4546fffa6935)
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
 ### QUERY:
 
+![270763155-2c78d720-f077-4843-bbbd-cefb0e36afcf](https://github.com/sujithrabkn/DBMS/assets/119477857/0da33bf3-2356-4b62-bc1a-4480ade15a26)
 
 ### OUTPUT:
+![270763212-0ca9e7dc-c9b6-45c6-b7a0-bf123d815295](https://github.com/sujithrabkn/DBMS/assets/119477857/c193f9ab-fb50-43e7-84b3-86afff4a324a)
 
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
 ### QUERY:
 
+![270764132-ea1201a0-53bc-436b-b815-3889759afcff](https://github.com/sujithrabkn/DBMS/assets/119477857/19131ffc-a0d2-48f7-8fa5-f8ffdbd5d26e)
 
 ### OUTPUT:
 
+![270764187-7376ae95-bab6-4739-abd7-bdc5e8a727dd](https://github.com/sujithrabkn/DBMS/assets/119477857/9098be47-7ae6-44c6-801c-faca58c9653a)
 
 ### Q4) Create a view empv5 (for the table emp) that contains empno, ename, job of the employees who work in dept 10.
 
 ### QUERY:
 
+![270764614-4c3e781f-8787-461d-b2ee-162f5222abd9](https://github.com/sujithrabkn/DBMS/assets/119477857/4deb987e-9c92-4d06-9d06-f536233f3ea6)
 
 ### OUTPUT:
+![270764656-753d1db9-8955-4b97-b850-43622886968b](https://github.com/sujithrabkn/DBMS/assets/119477857/7bbce252-4ba9-4729-bcff-1070ed8bfcd9)
 
 ### Q5) Create a view with column aliases empv30 that contains empno, ename, sal of the employees who work in dept 30. Also display the contents of the view.
 
 ### QUERY:
 
+![270765070-3551ed65-3cb5-4846-b817-48436b507530](https://github.com/sujithrabkn/DBMS/assets/119477857/506be384-f629-4021-8278-86e9380685ac)
 
 ### OUTPUT:
+![270765159-026712b5-02b2-40d6-a757-cec5bc08890d](https://github.com/sujithrabkn/DBMS/assets/119477857/3d5e62cc-7572-4dd5-be04-34eb7319a1c6)
+
 
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 
 ### QUERY:
 
+![270767939-d83bbdcd-83a3-427e-bd2b-e799958b055d](https://github.com/sujithrabkn/DBMS/assets/119477857/c88b86d5-e8bd-4d44-8cc8-5542f384c4e0)
 
 ### OUTPUT:
+![270767871-6941b531-33ed-41dc-b6f4-9e8bcc0dd113](https://github.com/sujithrabkn/DBMS/assets/119477857/6eb1d39a-c2f3-4d38-bc9c-0c949fadfa16)
 
 ## Create a Customer1 Table
 ```sql
@@ -142,30 +155,40 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 
 ### QUERY:
 
+![270771248-20c63405-1555-444c-8d92-daee8ad9f52d](https://github.com/sujithrabkn/DBMS/assets/119477857/18959992-0e87-4f4d-a7b7-0c6eeff6e3b2)
 
 ### OUTPUT:
+![270771306-4bf9b80e-b31d-486e-87b5-5462e60e6e2f](https://github.com/sujithrabkn/DBMS/assets/119477857/15903cfd-a6e9-407a-a7dd-3f717504b6a7)
 
 ### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
 
 ### QUERY:
 
+![270772008-6b4b7f1a-e1fa-41eb-abfc-d544b005a00e](https://github.com/sujithrabkn/DBMS/assets/119477857/0e651bfe-2c68-4d71-a4cb-96c9499f982a)
 
 ### OUTPUT:
+![270772054-031553d8-640c-4306-9f12-cd4a6c6a68ed](https://github.com/sujithrabkn/DBMS/assets/119477857/67475928-f124-4693-8073-fb4cfb1cbf3c)
 
 ### Q9) Perform Natural join on both tables
 
 ### QUERY:
 
+![270772360-a9609769-7404-4c74-909b-53d5610ea79a](https://github.com/sujithrabkn/DBMS/assets/119477857/29fc1ebc-a817-4a9d-81dd-5ccb38581807)
 
 ### OUTPUT:
+![270859730-099c0b7d-7822-4459-8025-92adc824dda8](https://github.com/sujithrabkn/DBMS/assets/119477857/dbf7195d-eb37-447a-ac0c-cdd7a18bfc88)
 
 ### Q10) Perform Left and right join on both tables
 
 ### QUERY:
+![270849330-7915ee92-d1e0-4528-be68-4bbe6fd7a11c](https://github.com/sujithrabkn/DBMS/assets/119477857/6cf5d216-afb2-452d-b7ec-0f78511476ef)
 
+![270860423-dcc24099-0fdd-404b-b81d-ea86de5cc8f9](https://github.com/sujithrabkn/DBMS/assets/119477857/aeffbf96-b559-4918-bc18-9f0372fc0e81)
 
 ### OUTPUT:
+![270860061-bfa8a83b-9e86-4924-895c-05fbe6346506](https://github.com/sujithrabkn/DBMS/assets/119477857/63ff32a0-16be-4de0-93e9-b1741b95f652)
+![270860293-7fe7c05b-ca77-4da2-9ab9-38a5f50a4879](https://github.com/sujithrabkn/DBMS/assets/119477857/f0189046-f491-458b-a78c-fb8f46b5a8ed)
 
-## RESULT 
-### Thus the basics of subqueries,views,joins are performed in SQL.
+### RESULT 
+Thus the basics of subqueries,views,joins are performed in SQL.
