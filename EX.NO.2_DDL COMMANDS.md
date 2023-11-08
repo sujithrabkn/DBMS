@@ -1,5 +1,5 @@
 # EXP NO 2: DATA DEFINITION LANGUGE COMMANDS 
-### DATE
+### DATE : 17-08-2023
 ## AIM:
 To create a student database and execute DDL queries using SQL.
 
@@ -25,74 +25,65 @@ To create a student database and execute DDL queries using SQL.
 
 ### SQL QUERY:
 ```
-Create database studentdb; 
-use studentdb;
+create database student_db;
 ```
 ### OUTPUT:
+![280927112-afb1fb7d-977c-441f-a8ea-5c9e7d10e7cc](https://github.com/sujithrabkn/DBMS/assets/119477857/58a35d5e-ef98-40d7-a9d4-0a692a79fe07)
 
 ### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY: 
 ```
-Create table student(RegNum int,Name varchar(30),Age int,Address varchar(20),PhoneNumber int);
-insert into student values(212222230001,'AAA',18,'xxx',1234567890);
-insert into student values(212222230002,'BBB',19,'yyy',9876543210);
+create table student(Regno int, Name varchar(20),Age int,Address varchar(50),Phonenumber varchar(10));
 ```
 
 ### OUTPUT:
-![Screenshot 2023-10-19 093836](https://github.com/sujithrabkn/DBMS/assets/119477857/372ecc22-b7c5-45b9-a0bf-07d245f9c2af)
-![Screenshot 2023-10-19 093843](https://github.com/sujithrabkn/DBMS/assets/119477857/5d694ac0-37f0-4fd5-ada8-853f86117e57)
+![280927652-35ec9dce-e676-4dee-8fe9-b95e8db3c07e](https://github.com/sujithrabkn/DBMS/assets/119477857/20caef92-38af-425e-9a25-8e6413d4d273)
 
 ### 3) Alter the above student table by adding another attribute department
 
 ### SQL QUERY: 
 ```
-ALTER TABLE student 
-ADD department VARCHAR(255);
+alter table student add dept varchar(20);
 ```
 ### OUTPUT:
-![Screenshot 2023-10-19 093850](https://github.com/sujithrabkn/DBMS/assets/119477857/1d72986e-7ac3-40da-b7f8-56d381567b00)
+
+![280927915-fc795c4a-ff2d-4373-9d5e-29e0970b7e9f](https://github.com/sujithrabkn/DBMS/assets/119477857/b0eb3496-34a7-4186-b505-cfb28b7664b0)
 
 ### 4) Rename the student table to mystudent
 
 ### SQL QUERY: 
 ```
-ALTER TABLE student RENAME TO mystudent;
+rename table student to mystudent;
 ```
 
 
 ### OUTPUT:
-![Screenshot 2023-10-19 093856](https://github.com/sujithrabkn/DBMS/assets/119477857/b6e30b95-67c2-404b-be59-cd5cf47ee808)
+![280928382-7b0162da-97de-4979-a38b-9f27ab267433](https://github.com/sujithrabkn/DBMS/assets/119477857/056f6082-cfe9-4266-a121-d9dbbd2cf31d)
 
 ### 5) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
 ```
-TRUNCATE TABLE mystudent;
+truncate table mystudent;
 ```
 
 ### OUTPUT:
-![Screenshot 2023-10-19 093901](https://github.com/sujithrabkn/DBMS/assets/119477857/e7ac5b3e-139c-450e-b310-63a6559625f0)
+![280930875-6ac30209-4af2-47b5-88ba-4cf3d1c518ce](https://github.com/sujithrabkn/DBMS/assets/119477857/19b022f9-cbdd-42dc-9688-f4f14499cb7d)
 
 ### 4) Drop the mystudent table
  
 ### SQL QUERY: 
 ```
-DROP TABLE mystudent;
+drop table mystudent;
 ```
 
 ### OUTPUT:
 
-
-![Screenshot 2023-10-19 093906](https://github.com/sujithrabkn/DBMS/assets/119477857/98e17c98-059a-45db-8a20-55f0d4d4d424)
-
-
-
-
-
+![280931508-ebb895b1-8b0c-4bb2-bbc5-81e7e9df2042](https://github.com/sujithrabkn/DBMS/assets/119477857/a44c5541-c1d5-4c33-aacf-41e28054a15c)
 
 ## Result:
 
-         Thus the basic DDL commands in SQL are executed. 
+Thus the basic DDL commands in SQL are executed. 
 
 
